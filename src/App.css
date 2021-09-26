@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+.formCenter{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 50px; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: auto;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px solid lightgray;
+}
+.centerDiv{
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 200px;
+  height: 200px;
+border-radius: 50%;
+}
+#click{
+  width:100%;
+  background-color: green;
+  height: 30px;
+  margin-top: 10px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#newUser{
+  background-color: blue;
+  width: 80px;
+  height: 30px;
+  color: white;margin-left: 20px;
+
+}
+#settingpw{
+  color: royalblue;
+  margin-right: 20px;
+}
+.inputAlign{
+  width: -webkit-fill-available;
+}
+.labelAlign{
+  width: inherit;
+  text-align: left;
+}
